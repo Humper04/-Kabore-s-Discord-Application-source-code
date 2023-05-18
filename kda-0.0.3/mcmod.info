@@ -1,0 +1,16 @@
+[
+{
+  "modid": "kda",
+  "name": "Kabore's Discord Application",
+  "description": "Chat with friends like in discord but in minecraft!.",
+  "version": "0.0.3",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["BetaKabore"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -1,0 +1,75 @@
+{
+  "net/betakabore/kda/KaboreDiscordAddon": {
+    "name": "net/betakabore/kda/KaboreDiscordAddon",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "net/betakabore/kda/KaboreDiscordAddon",
+        "values": {
+          "acceptedMinecraftVersions": {
+            "value": "[1.12.2]"
+          },
+          "dependencies": {
+            "value": "required-after:cdm@[0.4.1,)"
+          },
+          "modid": {
+            "value": "kda"
+          },
+          "name": {
+            "value": "Kabore\u0027s Discord Addon"
+          },
+          "version": {
+            "value": "0.0.2"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "onPreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V"
+      }
+    ]
+  },
+  "net/betakabore/kda/api/AccountList": {
+    "name": "net/betakabore/kda/api/AccountList",
+    "interfaces": [
+      "java/lang/Iterable"
+    ]
+  },
+  "net/betakabore/kda/api/DiscordIcons": {
+    "name": "net/betakabore/kda/api/DiscordIcons",
+    "interfaces": [
+      "com/mrcrayfish/device/api/app/IIcon"
+    ]
+  },
+  "net/betakabore/kda/api/Reactions": {
+    "name": "net/betakabore/kda/api/Reactions",
+    "interfaces": [
+      "net/betakabore/kda/api/IReaction"
+    ]
+  },
+  "net/betakabore/kda/api/channel/ChannelList": {
+    "name": "net/betakabore/kda/api/channel/ChannelList",
+    "interfaces": [
+      "java/lang/Iterable"
+    ]
+  },
+  "net/betakabore/kda/api/messages/MessageList": {
+    "name": "net/betakabore/kda/api/messages/MessageList",
+    "interfaces": [
+      "java/lang/Iterable"
+    ]
+  },
+  "net/betakabore/kda/api/messages/ServerList": {
+    "name": "net/betakabore/kda/api/messages/ServerList",
+    "interfaces": [
+      "java/lang/Iterable"
+    ]
+  }
+}
