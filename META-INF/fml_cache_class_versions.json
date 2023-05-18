@@ -1,0 +1,23 @@
+{
+  "net/betakabore/kda/KaboreDiscordAddon": 52,
+  "net/betakabore/kda/Reference": 52,
+  "net/betakabore/kda/api/DialogEditMessage": 52,
+  "net/betakabore/kda/api/IMessageField": 52,
+  "net/betakabore/kda/api/MessageField": 52,
+  "net/betakabore/kda/api/channel/Category": 52,
+  "net/betakabore/kda/api/channel/Channel": 52,
+  "net/betakabore/kda/api/channel/ICategory": 52,
+  "net/betakabore/kda/api/channel/IChannel": 52,
+  "net/betakabore/kda/api/channel/TextChannel": 52,
+  "net/betakabore/kda/api/messages/Account": 52,
+  "net/betakabore/kda/api/messages/AccountManager": 52,
+  "net/betakabore/kda/api/messages/Message": 52,
+  "net/betakabore/kda/api/messages/MessageManager": 52,
+  "net/betakabore/kda/api/messages/task/TaskCreateAccount": 52,
+  "net/betakabore/kda/api/messages/task/TaskLoginAccount": 52,
+  "net/betakabore/kda/api/messages/task/TaskSendMessage": 52,
+  "net/betakabore/kda/api/messages/task/TaskUpdateMessages": 52,
+  "net/betakabore/kda/api/resource/Icon": 52,
+  "net/betakabore/kda/application/ApplicationDiscord": 52,
+  "net/betakabore/kda/application/ApplicationDiscord$1": 52
+}

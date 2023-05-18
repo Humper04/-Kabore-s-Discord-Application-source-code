@@ -1,0 +1,63 @@
+{
+  "net/betakabore/kda/KaboreDiscordAddon": {
+    "name": "net/betakabore/kda/KaboreDiscordAddon",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "net/betakabore/kda/KaboreDiscordAddon",
+        "values": {
+          "acceptedMinecraftVersions": {
+            "value": "[1.12.2]"
+          },
+          "dependencies": {
+            "value": "required-after:cdm@[0.4.1,)"
+          },
+          "modid": {
+            "value": "kda"
+          },
+          "name": {
+            "value": "Kabore\u0027s Discord Addon"
+          },
+          "version": {
+            "value": "0.0.2"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "onPreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V"
+      }
+    ]
+  },
+  "net/betakabore/kda/api/MessageField": {
+    "name": "net/betakabore/kda/api/MessageField",
+    "interfaces": [
+      "net/betakabore/kda/api/IMessageField"
+    ]
+  },
+  "net/betakabore/kda/api/channel/Category": {
+    "name": "net/betakabore/kda/api/channel/Category",
+    "interfaces": [
+      "net/betakabore/kda/api/channel/ICategory"
+    ]
+  },
+  "net/betakabore/kda/api/channel/Channel": {
+    "name": "net/betakabore/kda/api/channel/Channel",
+    "interfaces": [
+      "net/betakabore/kda/api/channel/IChannel"
+    ]
+  },
+  "net/betakabore/kda/api/channel/TextChannel": {
+    "name": "net/betakabore/kda/api/channel/TextChannel",
+    "interfaces": [
+      "net/betakabore/kda/api/channel/Channel"
+    ]
+  }
+}
